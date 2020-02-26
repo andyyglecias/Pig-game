@@ -17,6 +17,8 @@ init();
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
 
+    
+
     if (gamePlaying) {
       dice = Math.floor(Math.random() * 6) + 1;
 
@@ -40,6 +42,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     }
   }
 });
+
 
 
   document.querySelector('.btn-hold').addEventListener('click', function() {
@@ -103,7 +106,3 @@ function init() {
 
 
 //document.querySelector('#current-' + activePlayer).textContent = dice;
-
-
-
-
